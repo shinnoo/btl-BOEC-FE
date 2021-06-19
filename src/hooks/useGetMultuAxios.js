@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-const API = "https://fakestoreapi.com";
+const API = "http://localhost:8000";
 
 export default function useGetMultuAxios(pathArray, method, bodyArray) {
   const [response, setResponse] = React.useState(null);
