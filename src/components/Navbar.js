@@ -41,7 +41,7 @@ export default function Navbar() {
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             <Link className={classes.logo} to="/">
-              DEMO Ecommerce App
+              BOEC App
             </Link>
           </Typography>
           <div>
