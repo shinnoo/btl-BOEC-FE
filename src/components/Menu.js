@@ -22,10 +22,10 @@ export default function Menu() {
           to={{ pathname: "/mclothing", state: { category: "mclothing" } }}
         />
         <Tab
-          label="jewelery"
-          value="jewelery"
+          label="book"
+          value="book"
           component={Link}
-          to={{ pathname: "/jewelery", state: { category: "jewelery" } }}
+          to={{ pathname: "/book", state: { category: "book" } }}
         />
         <Tab
           label="electronics"
